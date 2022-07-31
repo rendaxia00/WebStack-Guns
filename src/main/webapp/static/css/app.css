@@ -15575,6 +15575,16 @@ button.toast-close-button {
     margin-bottom: 5px
 }
 
+.xe-widget.xe-conversations .xe-body .xe-comment-entry .xe-comment .xe-project-name {
+    display: block;
+    margin-bottom: 5px
+}
+
+.xe-widget.xe-conversations .xe-body .xe-comment-entry .xe-comment .xe-project-state {
+    display: block;
+    margin-bottom: 5px
+}
+
 .xe-widget.xe-conversations .xe-body .xe-comment-entry .xe-comment .xe-user-name:hover strong {
     color: #7d7f7f
 }
@@ -25424,6 +25434,7 @@ button.toast-close-button {
     border-bottom: 0
 }
 
+
 .box2 {
     height: 86px;
     cursor: pointer;
@@ -25438,8 +25449,42 @@ button.toast-close-button {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+.contentContainer {
+    text-align: center;
+}
+
+.box_self {
+    height: 350px;
+    width: 268px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 0px 0px 0px 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #e4ecf3;
+    margin: 20px 20px 0px 20px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    display: inline-flex;
+}
 
 .box2:hover {
+    transform: translateY(-6px);
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.3);
+    -webkit-box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.3);
+    -moz-box-shadow: 0 26px 40px -24px rgba(0, 36, 100, 0.3);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+.box_self:hover {
     transform: translateY(-6px);
     -webkit-transform: translateY(-6px);
     -moz-transform: translateY(-6px);
@@ -25480,4 +25525,132 @@ button.toast-close-button {
 .submit-tag{
     margin-top: 50px;
 
+}
+
+
+/* 为Aptos生态自定义 */
+.title-aptos {
+    color: #555;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.xe-comment-entry-aptos {
+    display: block;
+    width: 238px;
+    margin: 0 auto;
+    background-color: #5e5e5e;
+    padding: 0,0;
+}
+
+.project-first-section-container {
+    width: 100%;
+    display: flex;
+    background-color: #093f80;
+    font-size: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-name-state-container {
+    width: 90px;
+    display: inline-block;
+    background-color: #007e70;
+    padding: 10px 0px;
+}
+
+.project-name-text {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #a7bfd6;
+}
+
+.project-state-text {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background-color:peru
+}
+
+
+
+.project-icon-container {
+    width: 146px;
+    height: 146px;
+    display: inline-block;
+    /* background-color: rgba(164, 15, 55, .5); */
+    text-align: center
+}
+
+.project-icon-container .iconImg {
+    width: 146px;
+    height: 146px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.project-describe-container {
+    width: 100%;
+    height: 120px;
+    padding: 5px 0px;
+    background-color:#96ead9;
+}
+
+.project-describe-container .textSpan {
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.overflowClip_4 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+
+.project-all-link-container{
+    height: 52px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #4d3166;
+    display: flex;
+}
+
+.project-single-link-container {
+    width: 30px;
+    height: 30px;
+    margin: 0px 8px 0 8px;
+    display: inline-flex;
+}
+
+li:last-child {
+    margin-bottom: 0px;
+}
+
+
+.project-link-container .img-circle {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 50%;
 }
